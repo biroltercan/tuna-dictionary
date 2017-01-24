@@ -1,0 +1,29 @@
+.body{
+	background-color:#A2D5F2;
+	padding:0px;
+	width: 100%;
+}
+.footer{
+	margin-top: 1%;
+	background-color: #07689F;
+	width: 100%
+}
+#footerHeader{
+	font-size: 150%;
+}
+#topicInfo{
+	display:none;
+}
+.entries{
+	padding-left: 0px;
+	padding-right: 0px
+}
+.content{
+	width: 100%
+}
+#footerHeader a{
+	color:white;
+	display: block;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}

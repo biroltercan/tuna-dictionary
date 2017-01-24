@@ -1,0 +1,26 @@
+.loginInput{
+    margin-top: 7px
+}
+#loginBtn{
+    margin-top: 10px;
+    background-color: #10316B;
+    color:white;
+    float:right;
+    width: 40%
+}
+#loginDiv{
+    width: 35%;
+}
+.registerInput{
+    margin-top: 7px
+}
+#registerBtn{
+    margin-top: 10px;
+    background-color: #10316B;
+    color:white;
+    float:right;
+    width: 40%
+}
+#registerDiv{
+    width: 35%;
+}

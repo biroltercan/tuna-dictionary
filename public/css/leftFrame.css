@@ -1,0 +1,25 @@
+.leftFrame{
+	background-color: #07689F;
+}
+.topicsBtn{
+	background-color: #0B409C;
+	float: right;
+	color:white;
+	margin-top: 3px;
+	margin-right: 2px
+}
+#topicsHeader{
+	color:white;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+	margin-top: 13px;
+	font-size:20px;
+}
+.topicsUL{
+	margin-top: 15px
+}
+.topicsUL li a{
+	color:white;
+}

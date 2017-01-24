@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="/js/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/header.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<link href="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.css" rel="stylesheet"/>
+	<script src="/js/js.cookie.js"></script>
+	<script src="/js/search.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/body.css">
+	<link rel="stylesheet" type="text/css" href="/css/leftFrame.css">
+	<script src="/js/leftFrame.js"></script>
+	<script src="/js/topicEntries.js"></script>
+</head>
+<body>
+	<div class="container body">
+		<div class="container head">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+					<a href="/" id="header">Dictionary</a>
+				</div>
+				<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+					<input class="form-control autocomplete" id="searchbox" type="text" placeholder="Search...">
+				</div>
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 logRegDiv">
+					<a href="/login" class="btn btnLogReg">Login</a>
+					<a href="/register" class="btn btnLogReg">Register</a>
+				</div>
+			</div>
+		</div>
+		<div class="container content">
+			<div class="row">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 leftFrame">
+					<span id="topicsHeader">Topics</span>
+					<a href="#" class="btn topicsBtn" id="todayTopics">Today</a>
+					<a href="#" class="btn topicsBtn" id="popularTopics">Popular</a>
+					<ul class="nav topicsUL">
+						
+					</ul>
+				</div>
+				<div class="panel-group entries col-xs-9 col-sm-9 col-md-9 col-lg-9">
+					<div id="topicInfo" topicid="<%- topicid %>" page="<%- page %>"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container footer">
+			<div class="row">
+				<center><span id="footerHeader"><a href="/">Tuna Akgul</a></span></center>
+			</div>
+		</div>
+		<div id="pageModal">
+			
+		</div>
+	</div>
+</body>
+</html>

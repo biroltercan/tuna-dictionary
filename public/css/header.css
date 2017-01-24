@@ -1,0 +1,20 @@
+#searchbox{
+	width: 100%;
+	margin-left: -13px
+}
+#header{
+	font-size: 190%;
+	color: white;
+}
+.head{
+	background-color: #10316B;
+	padding-top: 5px;
+	width: 100%;
+}
+.btnLogReg{
+	float:right;
+	margin-right: 1px;
+	background-color: #0B409C;
+	font-weight: bold;
+	color:white;
+}
